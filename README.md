@@ -35,7 +35,7 @@
 
 ### Cách 1 — Setup (khuyên dùng)
 
-1. Tải **`AutoCAD_AI_Studio_Setup_1.0.1.exe`** từ [Releases](https://github.com/ntdphi004/AutoCAD-AI-Studio-Release/releases).
+1. Tải **`AutoCAD_AI_Studio_Setup_1.0.2.exe`** từ [Releases](https://github.com/ntdphi004/AutoCAD-AI-Studio-Release/releases).
 2. Chạy Setup → Next → cài vào `C:\Program Files\AutoCAD AI Studio` (hoặc thư mục bạn chọn).
 3. Tùy chọn tạo shortcut Desktop.
 4. Mở **AutoCAD AI Studio** từ Start Menu.
@@ -141,7 +141,7 @@ copy .env.production.example .env.production
 .\build_setup.ps1
 ```
 
-Output: `dist\AutoCAD_AI_Studio.exe` và `dist\AutoCAD_AI_Studio_Setup_1.0.1.exe` (có icon).
+Output: `dist\AutoCAD_AI_Studio.exe` và `dist\AutoCAD_AI_Studio_Setup_1.0.2.exe` (có icon).
 
 Chi tiết kỹ thuật: xem `PLAN_PROMPT.md` trong source tree.
 
@@ -149,6 +149,7 @@ Chi tiết kỹ thuật: xem `PLAN_PROMPT.md` trong source tree.
 
 ## Phiên bản
 
+- **v1.0.2** — Live scan INSUNITS → meters (BOM khớp DXF); plan/docs sync
 - **v1.0.1** — Telegram install-notify retry + Setup filename matches release tag
 - **v1.0.0** — First public customer release (Windows x64, encrypted ship config, Setup + portable)
 
