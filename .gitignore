@@ -1,0 +1,6 @@
+# AutoCAD AI Studio — public customer release (binaries + docs only)
+
+*.exe
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+# Hướng dẫn nhanh cài đặt AutoCAD AI Studio
+
+1. Tải AutoCAD_AI_Studio_Setup_1.0.0.exe từ Releases
+2. Chạy Setup trên Windows 10/11 x64
+3. Mở app → Settings → nhập Gemini API key → Save
+4. Mở AutoCAD + một DWG trước khi dùng AI Drawing / Scan live
+5. Nâng cấp PRO: copy HWID → gửi Telegram hỗ trợ → dán key → Activate
+
+Chi tiết đầy đủ: xem README.md
