@@ -1,6 +1,6 @@
 AutoCAD AI Studio — hướng dẫn cài đặt (khách)
 
-1. Chạy AutoCAD_AI_Studio_Setup_1.0.0.exe (hoặc AutoCAD_AI_Studio.exe portable).
+1. Chạy AutoCAD_AI_Studio_Setup_1.0.1.exe (hoặc AutoCAD_AI_Studio.exe portable).
 2. Windows 10/11 x64. Installer có thể cài VC++ Runtime nếu đã đóng gói redist.
 3. Mở app → Welcome → dùng FREE ngay (AI Drawing cần AutoCAD + Gemini key).
 4. Settings & License:
