@@ -1,11 +1,11 @@
 AutoCAD AI Studio — hướng dẫn cài đặt (khách)
 
-1. Chạy AutoCAD_AI_Studio_Setup_1.0.2.exe (hoặc AutoCAD_AI_Studio.exe portable).
+1. Chạy AutoCAD_AI_Studio_Setup_1.0.3.exe (hoặc AutoCAD_AI_Studio.exe portable).
 2. Windows 10/11 x64. Installer có thể cài VC++ Runtime nếu đã đóng gói redist.
 3. Mở app → Welcome → dùng FREE ngay (AI Drawing cần AutoCAD + Gemini key).
 4. Settings & License:
-   - Copy Machine Code (HWID) gửi Telegram hỗ trợ để nâng cấp PRO/VIP.
-   - Dán key PRO-… → Activate Upgrade.
+   - Copy HWID gửi Telegram hỗ trợ để nâng cấp PRO/VIP.
+   - Dán key PRO-… → Activate Upgrade (hoặc Upgrade Wizard).
    - Nhập Google Gemini API key → Save Key (lưu AppData, không cần sửa file cài đặt).
 5. AutoCAD: cài bản có COM, mở ít nhất một bản vẽ DWG trước khi Drawing / Scan live.
 6. PRO: tab BOM → Scan live hoặc Open DXF → Estimate BOM (AI) → Export Excel.

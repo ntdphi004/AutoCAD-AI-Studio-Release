@@ -35,7 +35,7 @@
 
 ### Cách 1 — Setup (khuyên dùng)
 
-1. Tải **`AutoCAD_AI_Studio_Setup_1.0.2.exe`** từ [Releases](https://github.com/ntdphi004/AutoCAD-AI-Studio-Release/releases).
+1. Tải **`AutoCAD_AI_Studio_Setup_1.0.3.exe`** từ [Releases](https://github.com/ntdphi004/AutoCAD-AI-Studio-Release/releases).
 2. Chạy Setup → Next → cài vào `C:\Program Files\AutoCAD AI Studio` (hoặc thư mục bạn chọn).
 3. Tùy chọn tạo shortcut Desktop.
 4. Mở **AutoCAD AI Studio** từ Start Menu.
@@ -52,7 +52,7 @@
 2. Có thể hiện Welcome — đọc nhanh rồi đóng.
 3. Vào tab **Settings & License**:
    - Dán **Gemini API key** → **Save Key** (lưu tại `%LOCALAPPDATA%\AutoCAD_AI_Studio\settings.env`).
-   - Sao chép **Machine Code (HWID)** nếu cần nâng cấp PRO/VIP.
+   - Sao chép **HWID** nếu cần nâng cấp PRO/VIP.
 4. Mở **AutoCAD** và tạo/mở ít nhất **một file DWG** trước khi dùng Drawing hoặc Scan live.
 
 Nếu thiếu VC++ Runtime, Windows sẽ báo lỗi khi mở app — cài [VC++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) rồi chạy lại.
@@ -141,7 +141,7 @@ copy .env.production.example .env.production
 .\build_setup.ps1
 ```
 
-Output: `dist\AutoCAD_AI_Studio.exe` và `dist\AutoCAD_AI_Studio_Setup_1.0.2.exe` (có icon).
+Output: `dist\AutoCAD_AI_Studio.exe` và `dist\AutoCAD_AI_Studio_Setup_1.0.3.exe` (có icon).
 
 Chi tiết kỹ thuật: xem `PLAN_PROMPT.md` trong source tree.
 
@@ -149,6 +149,7 @@ Chi tiết kỹ thuật: xem `PLAN_PROMPT.md` trong source tree.
 
 ## Phiên bản
 
+- **v1.0.3** — UI sync: status refresh queue, welcome deep-links, BOM empty-state guides
 - **v1.0.2** — Live scan INSUNITS → meters (BOM khớp DXF); plan/docs sync
 - **v1.0.1** — Telegram install-notify retry + Setup filename matches release tag
 - **v1.0.0** — First public customer release (Windows x64, encrypted ship config, Setup + portable)
